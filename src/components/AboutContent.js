@@ -2,15 +2,15 @@ import './AboutContentStyles.css';
 
 import React from 'react'
 import { Link } from 'react-router-dom';
-import art1 from "../assets/art1.webp";
-import art2 from "../assets/art2.png"
+import art1 from "../assets/doctor.webp";
+import art2 from "../assets/speek.jpg"
 
 const AboutContent = () => {
   return (
     <div className='about'>
         <div className='left'>
-            <h1>Who Am I ?</h1>
-            <p> I am an athlete and a lover of Wind\kite-surfing</p>
+            <h1>You have a Question ?</h1>
+            <p>Here's a Doctor </p>
             <Link to="/contact">
                 <button className="btn">Contact</button>
             </Link>

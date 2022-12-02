@@ -2,7 +2,7 @@ import "./HeroImgStyles.css";
 
 import React from 'react'
 
-import introImg from '../assets/slider1.jpg'
+import introImg from '../assets/sida_intro.jpg'
 import { Link } from "react-router-dom";
 
 const HeroImg = () => {
@@ -14,10 +14,10 @@ const HeroImg = () => {
         </div>
 
       <div className="content">
-          <p>Hi, I am a surfer</p>  
-          <h1>Real surfer</h1>
+          <p>HERE</p>  
+          <h1>NO Taboo</h1>
           <div className="">
-             <Link to="/shop" className="btn">Products</Link>
+             <Link to="/aboutus" className="btn">About</Link>
              <Link to="/events" className="btn btn-light">Events</Link>
           </div>
 

@@ -7,7 +7,7 @@
 
 .hero-img::before{
 content: "";
-background: url("../assets/slider2.jpg");
+background: url("../assets/sida_about_us.jpg");
 background-size: cover;
 background-position: center top;
 height: 100%;

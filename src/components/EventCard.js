@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 const EventCard = (props) => {
   return (
-    <div className='img-card'>
-                 <img src={props.imgsrc} alt='produi1'/>
+    <div className='img-card' >
+                 <img src={props.imgsrc} alt='produi1' />
                  <h2 className='prod-title'>{props.title}</h2>
                  <div className='pro-details'>
                      <p>{props.text}</p>

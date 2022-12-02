@@ -35,7 +35,7 @@ const Footer = () => {
 
             <div className='right'>
                <h4>About the community</h4>
-               <p>this is about u surfer</p>
+               <p>Follow us </p>
                <div className='social'>
                <FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}} />
                <FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}} />
